@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;800&display=swap");
+
+:root {
+  --body-color: #51555b;
+  --text-color: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--body-color);
+  color: var(--text-color);
+  font-family: "Merriweather-Sans", Arial, Helvetica, sans-serif;
+}
+
+/*layout*/
+/*
+.div-one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.heading {
+  font-size: 2.5rem;
+  padding: 1rem 1rem;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.between {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1.5rem 1rem;
+  padding: 0.75rem, 1rem;
+}
+
+.btn-again {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 1rem 1rem;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+}
+
+.div-guess {
+  display: flex;
+  flex-direction: column;
+}
+*/
+
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 7px solid #fff;
+}
+
+main {
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left {
+  width: 52rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  width: 52rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/*element style*/
+
+.heading {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  position: absolute;
+  width: 100%;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.between {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1rem 1rem;
+}
+
+.btn {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.btn-again {
+  margin: 0.5rem 0.5rem;
+}
+
+.number {
+  font-size: 3rem;
+  color: black;
+  padding: 2rem 3rem;
+  text-align: center;
+  width: 10rem;
+  background-color: #e7f2f8;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.input {
+  background: none;
+  font-size: 1.5rem;
+  color: inherit;
+  padding: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+  display: block;
+  width: 10rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn:hover {
+  background-color: lightblue;
+}
+
+.message {
+  margin-bottom: 3rem;
+  height: 2rem;
+}
+
+.label-score {
+  margin-bottom: 1rem;
+}
